@@ -1,0 +1,27 @@
+{
+    "image": "player",
+    "frame": {
+        "width":200,
+        "height":200,
+        "count": 3
+    },
+    "animations": {
+        "tame": {
+            "frames": [0],
+            "next": "tame",
+            "frequency": 3
+        },
+
+        "nage": {
+            "frames": [1],
+            "next": "tame",
+            "frequency": 10
+        },
+        "owata": {
+            "frames": [2],
+            "next": "owata",
+            "frequency": 1
+        }
+
+    }
+}
